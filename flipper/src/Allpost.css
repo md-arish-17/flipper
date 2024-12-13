@@ -1,0 +1,48 @@
+#allpostSection{
+    width: 80%;
+    /* background-color: aqua; */
+    
+}
+.upperSection{
+    display: flex;
+    justify-content: space-between;
+    height: 9vh;
+    width: 100%;
+    /* background-color: rgb(151, 151, 248); */
+}
+.upperSection a{
+    color: #592EA9;
+    font-size: larger;
+    font-weight: bold;
+}
+#featureHeading{
+    color: #232536;
+}
+.lowerSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.figmaDesc{
+    height: 20vh;
+    width: 80%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: 0.7s all ease-in-out;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.figmaDesc h5{
+    color: #4C4C4C;
+}
+.figmaDesc h2{
+    color: #232536;
+}
+.figmaDesc:hover{
+    background-color: #e3e3e3;
+}
+

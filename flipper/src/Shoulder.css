@@ -1,0 +1,57 @@
+#shoulderSec{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10vh;
+    position: relative;
+}
+
+#shoulderImg{
+    height: 50%;
+    width: 70%;
+    position: relative;
+}
+
+#shoulderDesc{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 60%;
+    /* border: 2px solid red; */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    gap: 25px;
+    padding: 4rem;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#shoulderDesc h3{
+    text-transform: uppercase;
+    color: #4C4C4C;
+    font-size: 1.1rem;
+}
+#shoulderDesc h1{
+    width: 70%;
+    color: #232536;
+}
+#shoulderDesc p{
+    color: #6D6E76;
+}
+#discoverBtn{
+    position: relative;
+    background-color: #FFD050;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 0px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+    height: 40px;
+    width: 250px;
+}
+#icon{
+    font-size: xx-large;
+
+}

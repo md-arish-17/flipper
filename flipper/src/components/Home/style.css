@@ -1,0 +1,117 @@
+/* Yellow and Violet Lines Responsiveness */
+.yellow-line {
+    width: 50%;
+    left: 10%;
+    height: 15px;
+    position: relative;
+    background-color: #ffd700;
+  }
+  
+  .violet-line {
+    width: 30%;
+    right: 10%;
+    height: 15px;
+    position: absolute;
+    background-color: #6a0dad;
+  }
+
+  
+  
+  /* Extra-Large Screens (Above 1440px) */
+  @media (min-width: 1441px) {
+    .yellow-line {
+      width: 60%; /* Slightly longer on larger screens */
+      left: 15%;
+    }
+  
+    .violet-line {
+      width: 40%; /* Slightly longer on larger screens */
+      right: 15%;
+    }
+  }
+  
+  /* Large Screens (1200px to 1440px) */
+  @media (max-width: 1440px) {
+    .yellow-line {
+      width: 50%;
+      left: 10%;
+    }
+  
+    .violet-line {
+      width: 30%;
+      right: 10%;
+    }
+  }
+  
+  /* Medium Screens (768px to 1199px) */
+  @media (max-width: 1199px) {
+    .yellow-line {
+      width: 45%;
+      left: 8%;
+    }
+  
+    .violet-line {
+      width: 25%;
+      right: 8%;
+    }
+
+    .categories{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  @media (max-width: 1199px) {
+    .yellow-line {
+        width: 45%;
+        left: 22%;
+        
+    }
+}
+
+
+  
+  /* Small Tablets (576px to 767px) */
+  @media (max-width: 768px) {
+    .yellow-line {
+      width: 40%;
+      left: 36%;
+    }
+  
+    .violet-line {
+      width: 20%;
+      right: 5%;
+    }
+  }
+  
+  /* Large Mobile Phones (375px to 575px) */
+  @media (max-width: 576px) {
+    .yellow-line {
+      width: 30%; /* Reduced width for mobile */
+      left: 50%;
+    }
+  
+    .violet-line {
+      width: 20%; /* Reduced width for mobile */
+      right: 0%;
+    }
+  }
+  
+
+  @media (max-width: 475px) {
+    .yellow-line {
+      width: 30%; /* Reduced width for mobile */
+      left: 50%;
+    }
+  
+    .violet-line {
+      width: 20%; /* Reduced width for mobile */
+      right: 0%;
+    }
+  }
+
+  
+  
+ 
+  

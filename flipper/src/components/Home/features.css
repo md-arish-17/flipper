@@ -1,0 +1,12 @@
+@media (max-width: 1201px){
+   .parente{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+   .featureCarde{
+    margin-left: 100px;
+    margin-bottom: 50px;
+   }
+
+}
