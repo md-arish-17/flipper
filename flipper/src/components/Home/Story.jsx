@@ -34,8 +34,8 @@ function Story() {
         aliquip ex ea commodo consequat.
       </p>
       <button
-        className="btn btn-warning fw-bold text-dark px-5 py-2"
-        style={{ borderRadius: "5px" }}
+        className="btn  fw-bold text-dark px-5 py-2"
+        style={{ borderRadius: "5px",backgroundColor:'#FFD050' }}
       >
         Discover our story
       </button>

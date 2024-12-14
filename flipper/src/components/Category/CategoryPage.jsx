@@ -39,68 +39,81 @@ function CategoryPage() {
         </div>
 
   {/* Sidebar Section */}
-<div className="col-lg-4">
+  <div className="col-lg-4">
   {/* Categories Section */}
- {/* Categories Section */}
-{/* Categories Section */}
-<div className="mb-5">
-  <h5 className="fw-bold mb-3">Categories</h5>
-  {[
-    { name: "Startup", icon: starup },
-    { name: "Business", icon: business },
-    { name: "Economy", icon: economy },
-    { name: "Technology", icon: technology },
-  ].map((category, index) => (
+  <div className="mb-5">
+    <h5 className="fw-bold mb-3">Categories</h5>
     <div
-      className={`d-flex align-items-center p-3 mb-3 rounded shadow-sm ${
-        index === 0 ? "bg-warning text-dark" : "bg-white"
-      }`}
-      style={{ cursor: "pointer" }}
-      key={index}
     >
-      <div
-        className="icon-wrapper d-flex justify-content-center align-items-center me-3"
-        style={{
-          width: "40px",
-          height: "40px",
-          backgroundColor: "white",
-          borderRadius: "5%", // Makes wrapper look rounded
-          overflow: "hidden", // Ensures icons respect wrapper boundaries
-        }}
-      >
-        <img
-          src={category.icon}
-          alt={category.name}
-          style={{
-            width: "100%",
-            height: "100%",
-            objectFit: "contain", // Ensures SVG icons scale uniformly
-          }}
-        />
-      </div>
-      <span className="fw-bold">{category.name}</span>
-    </div>
-  ))}
+      {[
+        { name: "Startup", icon: starup },
+        { name: "Business", icon: business },
+        { name: "Economy", icon: economy },
+        { name: "Technology", icon: technology },
+      ].map((category, index) => (
+        <div
+  className={`category-item d-flex align-items-center p-3 mb-3 rounded shadow-sm`}
+  style={{
+    cursor: "pointer",
+    backgroundColor: "white", // Default background
+    transition: "transform 0.3s ease, background-color 0.3s ease", // Smooth transition
+  }}
+  key={index}
+  onMouseEnter={(e) => {
+    e.currentTarget.style.backgroundColor = "#FFD050"; // Hover background
+  }}
+  onMouseLeave={(e) => {
+    e.currentTarget.style.backgroundColor = "white"; // Reset to default
+  }}
+>
+  <div
+    className="icon-wrapper d-flex justify-content-center align-items-center me-3"
+    style={{
+      width: "40px",
+      height: "40px",
+      backgroundColor: "white",
+      borderRadius: "5%",
+      overflow: "hidden",
+    }}
+  >
+    <img
+      src={category.icon}
+      alt={category.name}
+      style={{
+        width: "100%",
+        height: "100%",
+        objectFit: "contain",
+      }}
+    />
+  </div>
+  <span className="fw-bold">{category.name}</span>
 </div>
 
-
+      ))}
+    </div>
+  </div>
 
   {/* Tags Section */}
   <div>
-    <h5 className="fw-bold mb-3">All Tags</h5>
-    {["Business", "Experience", "Screen", "Technology", "Marketing", "Life"].map(
-      (tag, index) => (
-        <span
-          key={index}
-          className="badge bg-light text-dark me-2 mb-2 p-2 shadow-sm"
-          style={{ cursor: "pointer" }}
-        >
-          {tag}
-        </span>
-      )
-    )}
+    <h5 className="fw-bold mb-3" style={{fontFamily:'sans-serif'}}>All Tags</h5>
+    <div
+   
+    >
+      {["Business", "Experience", "Screen", "Technology", "Marketing", "Life"].map(
+        (tag, index) => (
+          <span
+            key={index}
+            className="tag-item badge bg-light text-dark me-2 mb-2 p-3 shadow-sm"
+            style={{ cursor: "pointer" ,fontFamily:'sans-serif', borderRadius:'30px' ,border: '2px solid #6D6E76',  }}
+          >
+            {tag}
+          </span>
+        )
+      )}
+    </div>
   </div>
 </div>
+
       </div>
     </div>
   );

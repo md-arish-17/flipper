@@ -44,7 +44,7 @@ function ListAuthor() {
         },
       ].map((author, index) => (
         <div className="col-md-3 col-sm-6 mb-4 " key={index}>
-          <div className="card w-100 authorCard" style={{backgroundColor:"#F4F0F8",border:"none"}}>
+          <div className="card w-100 " id="authorCard" style={{backgroundColor:"#F4F0F8",border:"none"}}>
             {/* Author Image */}
             <img
               src={author.image}

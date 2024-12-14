@@ -19,6 +19,7 @@ function Header() {
           aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          style={{width:'80px'}}
         >
           <span className="navbar-toggler-icon"></span>
         </button>

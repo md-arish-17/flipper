@@ -6,6 +6,7 @@ import Footer from '../Footer/Footer'
 import Header from '../Header/Header'
 import img from '../images/assets/Client-First - IMAGES/man-in-white-dress-shirt-sitting-on-black-rolling-chair-while-facing-black-computer-set-and-smiling-840996.svg'
 import { Link } from 'react-router-dom'
+import './blog.css'
 
 
 function Blog() {
@@ -39,7 +40,7 @@ function Blog() {
           <img
             src={img}
             alt="Featured"
-            className="img-fluid "
+            className="img-fluid mainImgC"
             style={{
               height:'100%',
               width : '100%'

@@ -4,7 +4,7 @@
     left: 10%;
     height: 15px;
     position: relative;
-    background-color: #ffd700;
+    background-color: #FFD050;
   }
   
   .violet-line {
@@ -12,7 +12,7 @@
     right: 10%;
     height: 15px;
     position: absolute;
-    background-color: #6a0dad;
+    background-color: #592EA9;
   }
 
   
@@ -111,6 +111,26 @@
     }
   }
 
+  .audi{
+    /* display:flex;
+    justify-content:center;
+    align-items:center;
+     width:100%;
+     margin:0 auto */
+  }
+
+  @media (max-width:1201px) and (min-width:770px){
+    .audi{
+      /* display: flex;
+      width: 100%;
+      padding: ;
+      flex-direction: row; */
+    }
+  }
+
+  .hov:hover{
+    background-color: #ffd700;
+  }
   
   
  

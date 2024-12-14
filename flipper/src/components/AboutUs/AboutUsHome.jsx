@@ -36,7 +36,7 @@ function AboutUsHome() {
           <div
             className="py-4 rounded shadow"
             style={{
-              backgroundColor: "#FFC107",
+              backgroundColor: "#FFD050",
               color: "black",
               height: "120px",
               display: "flex",
@@ -53,7 +53,7 @@ function AboutUsHome() {
           <div
             className="py-4 rounded shadow"
             style={{
-              backgroundColor: "#FFC107",
+              backgroundColor: "#FFD050",
               color: "black",
               height: "120px",
               display: "flex",
@@ -70,7 +70,7 @@ function AboutUsHome() {
           <div
             className="py-4 rounded shadow"
             style={{
-              backgroundColor: "#FFC107",
+              backgroundColor: "#FFD050",
               color: "black",
               height: "120px",
               display: "flex",

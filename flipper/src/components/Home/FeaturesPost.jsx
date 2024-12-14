@@ -30,7 +30,7 @@ function FeaturesPost() {
               cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
               cupidatat non proident.
             </p>
-            <a href="#" className="btn btn-warning fw-bold px-4">
+            <a href="#" className="btn btn-warning fw-bold px-4" style={{backgroundColor:'#FFD050'}}>
               Read More 
             </a>
           </div>
@@ -41,7 +41,7 @@ function FeaturesPost() {
       <div className="col-lg-4 ">
         <div className="d-flex justify-content-between align-items-center mb-4">
           <h2 className="fw-bold ">All Posts</h2>
-          <a href="#" className="text-decoration-none text-primary fw-bold">
+          <a href="#" className="text-decoration-none  fw-bold" style={{color:'#592EA9'}}>
             View All
           </a>
         </div>
